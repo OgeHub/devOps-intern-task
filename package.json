@@ -1,0 +1,14 @@
+{
+  "name": "devops-intern-task",
+  "version": "1.0.0",
+  "description": "DevOps task",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Success Ezeh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
