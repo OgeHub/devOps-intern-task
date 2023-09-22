@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Kind cluster name
 KIND_CLUSTER_NAME="devops-task-kind-cluster"
