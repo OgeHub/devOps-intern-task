@@ -16,9 +16,9 @@ if kind get clusters | grep -q "$KIND_CLUSTER_NAME"; then
 fi
 
 # Create a Kind cluster
-kind create cluster --name "$KIND_CLUSTER_NAME" --image "kindest/node:v1.21.1"
+kind create cluster --name "$KIND_CLUSTER_NAME" --image "kindest/node:v1.28.0"
 
 # Comfirm that the cluster is running
-kubectl cluster-info
+kind get clusters
 
 echo "'$KIND_CLUSTER_NAME' is running."
