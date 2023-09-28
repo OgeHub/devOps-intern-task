@@ -1,6 +1,6 @@
 provider "kubectl" {
   apply_retry_count = 10
-  config_path = ./kind-config
+  config_path = "~/.kind-config.yaml"
 }
 
 resource "kubectl_manifest" "intern-task" {
